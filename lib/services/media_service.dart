@@ -1,11 +1,10 @@
 import 'dart:io';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
-import 'package:image_picker/image_picker.dart';
+import 'package:file_picker/file_picker.dart'; // Updated import
 
 class MediaService {
   final FirebaseStorage _storage = FirebaseStorage.instance;
-  final ImagePicker _picker = ImagePicker();
 
   get path => null;
 
@@ -31,12 +30,16 @@ class MediaService {
     }
   }
 
-  // Pick an image or video from the gallery or camera
-  Future<File?> pickMedia(ImageSource source) async {
+  // Pick a file from the device (using FilePicker)
+  Future<File?> pickMedia() async {
     try {
-      final pickedFile = await _picker.pickImage(source: source);
-      if (pickedFile != null) {
-        return File(pickedFile.path);
+      // Allow the user to pick any file type (image, video, etc.)
+      FilePickerResult? result = await FilePicker.platform.pickFiles();
+
+      if (result != null) {
+        // Get the picked file
+        File file = File(result.files.single.path!);
+        return file;
       }
       return null;
     } catch (e) {
@@ -45,15 +48,15 @@ class MediaService {
     }
   }
 
-  // Upload an image picked by the user
-  Future<String?> uploadImage(ImageSource source) async {
+  // Upload an image picked by the user (now using FilePicker)
+  Future<String?> uploadImage() async {
     try {
-      // Pick an image from the gallery or camera
-      File? imageFile = await pickMedia(source);
+      // Pick a file (image, video, etc.)
+      File? pickedFile = await pickMedia();
 
-      if (imageFile != null) {
-        // Upload the image to Firebase Storage
-        return await uploadMedia(imageFile.path);
+      if (pickedFile != null) {
+        // Upload the picked file to Firebase Storage
+        return await uploadMedia(pickedFile.path);
       }
       return null;
     } catch (e) {
