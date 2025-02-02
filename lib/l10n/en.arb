@@ -1,0 +1,87 @@
+{
+  "@@locale": "en",
+  "appTitle": "Flutter Chat App",
+  "@appTitle": {
+    "description": "The title of the app, shown on the home screen"
+  },
+  "homeScreenTitle": "Home",
+  "@homeScreenTitle": {
+    "description": "The title of the home screen"
+  },
+  "chatScreenTitle": "Chat",
+  "@chatScreenTitle": {
+    "description": "The title of the chat screen"
+  },
+  "statusScreenTitle": "Status",
+  "@statusScreenTitle": {
+    "description": "The title of the status screen"
+  },
+  "profileScreenTitle": "Profile",
+  "@profileScreenTitle": {
+    "description": "The title of the profile screen"
+  },
+  "premiumScreenTitle": "Premium Features",
+  "@premiumScreenTitle": {
+    "description": "The title of the premium features screen"
+  },
+  "videoCallScreenTitle": "Video Call",
+  "@videoCallScreenTitle": {
+    "description": "The title of the video call screen"
+  },
+  "settingsScreenTitle": "Settings",
+  "@settingsScreenTitle": {
+    "description": "The title of the settings screen"
+  },
+  "notification": "You have a new notification",
+  "@notification": {
+    "description": "Message displayed when there is a new notification"
+  },
+  "errorOccurred": "An error occurred. Please try again.",
+  "@errorOccurred": {
+    "description": "Message displayed when an error occurs"
+  },
+  "send": "Send",
+  "@send": {
+    "description": "Button label for sending a message"
+  },
+  "typing": "Typing...",
+  "@typing": {
+    "description": "Message indicating that the other user is typing"
+  },
+  "logout": "Log out",
+  "@logout": {
+    "description": "Button label for logging out"
+  },
+  "login": "Login",
+  "@login": {
+    "description": "Button label for logging in"
+  },
+  "signup": "Sign up",
+  "@signup": {
+    "description": "Button label for signing up"
+  },
+  "enterMessage": "Enter your message...",
+  "@enterMessage": {
+    "description": "Hint text in the message input field"
+  },
+  "welcomeMessage": "Welcome to the Flutter Chat App!",
+  "@welcomeMessage": {
+    "description": "Welcome message displayed to the user"
+  },
+  "profileUpdateSuccess": "Profile updated successfully",
+  "@profileUpdateSuccess": {
+    "description": "Message displayed when the profile is successfully updated"
+  },
+  "profileUpdateError": "Error updating profile",
+  "@profileUpdateError": {
+    "description": "Message displayed when there is an error updating the profile"
+  },
+  "statusUpdateSuccess": "Status updated successfully",
+  "@statusUpdateSuccess": {
+    "description": "Message displayed when the status is successfully updated"
+  },
+  "statusUpdateError": "Error updating status",
+  "@statusUpdateError": {
+    "description": "Message displayed when there is an error updating the status"
+  }
+}

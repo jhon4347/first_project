@@ -1,0 +1,87 @@
+{
+  "@@locale": "es",
+  "appTitle": "Aplicación de Chat Flutter",
+  "@appTitle": {
+    "description": "The title of the app, shown on the home screen"
+  },
+  "homeScreenTitle": "Inicio",
+  "@homeScreenTitle": {
+    "description": "The title of the home screen"
+  },
+  "chatScreenTitle": "Chat",
+  "@chatScreenTitle": {
+    "description": "The title of the chat screen"
+  },
+  "statusScreenTitle": "Estado",
+  "@statusScreenTitle": {
+    "description": "The title of the status screen"
+  },
+  "profileScreenTitle": "Perfil",
+  "@profileScreenTitle": {
+    "description": "The title of the profile screen"
+  },
+  "premiumScreenTitle": "Funciones Premium",
+  "@premiumScreenTitle": {
+    "description": "The title of the premium features screen"
+  },
+  "videoCallScreenTitle": "Videollamada",
+  "@videoCallScreenTitle": {
+    "description": "The title of the video call screen"
+  },
+  "settingsScreenTitle": "Configuración",
+  "@settingsScreenTitle": {
+    "description": "The title of the settings screen"
+  },
+  "notification": "Tienes una nueva notificación",
+  "@notification": {
+    "description": "Message displayed when there is a new notification"
+  },
+  "errorOccurred": "Ocurrió un error. Por favor, inténtalo de nuevo.",
+  "@errorOccurred": {
+    "description": "Message displayed when an error occurs"
+  },
+  "send": "Enviar",
+  "@send": {
+    "description": "Button label for sending a message"
+  },
+  "typing": "Escribiendo...",
+  "@typing": {
+    "description": "Message indicating that the other user is typing"
+  },
+  "logout": "Cerrar sesión",
+  "@logout": {
+    "description": "Button label for logging out"
+  },
+  "login": "Iniciar sesión",
+  "@login": {
+    "description": "Button label for logging in"
+  },
+  "signup": "Registrarse",
+  "@signup": {
+    "description": "Button label for signing up"
+  },
+  "enterMessage": "Introduce tu mensaje...",
+  "@enterMessage": {
+    "description": "Hint text in the message input field"
+  },
+  "welcomeMessage": "¡Bienvenido a la aplicación de chat Flutter!",
+  "@welcomeMessage": {
+    "description": "Welcome message displayed to the user"
+  },
+  "profileUpdateSuccess": "Perfil actualizado con éxito",
+  "@profileUpdateSuccess": {
+    "description": "Message displayed when the profile is successfully updated"
+  },
+  "profileUpdateError": "Error al actualizar el perfil",
+  "@profileUpdateError": {
+    "description": "Message displayed when there is an error updating the profile"
+  },
+  "statusUpdateSuccess": "Estado actualizado con éxito",
+  "@statusUpdateSuccess": {
+    "description": "Message displayed when the status is successfully updated"
+  },
+  "statusUpdateError": "Error al actualizar el estado",
+  "@statusUpdateError": {
+    "description": "Message displayed when there is an error updating the status"
+  }
+}
